@@ -14,57 +14,72 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+--------------------------------------------------------------------------------------------------------------------------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# ⏱️ XStopwatch
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**XStopwatch** is a lightweight stopwatch application built with **ReactJS** that allows users to start, stop, and reset a timer. It displays elapsed time in a `minutes:seconds` format and updates every second in real-time.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Live Demo
 
-### `npm run eject`
+🔗 [Click here to view the live demo](https://xstopwatch-2wz83zalh-kanishkas-projects-95e27a37.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- ⏯️ **Start / Stop** the timer dynamically.
+- 🔄 **Reset** to 0:00 anytime.
+- 🕒 Displays time in real-time: `Time: 0:00`, `Time: 1:59`, etc.
+- ⚙️ Uses `useState` and `useEffect` hooks for logic and timing.
+- 🧼 Auto-cleans up intervals to prevent memory leaks.
+- 📱 Responsive and clean user interface with inline styles.
+- ✅ Passes assessment test cases and follows naming conventions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Tool       | Description                         |
+|------------|-------------------------------------|
+| React      | Frontend UI framework               |
+| JavaScript | Application logic                   |
+| JSX        | Component rendering                 |
+| CSS (Inline)| Simple styling for layout and buttons |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🕒 Initial Render:-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4e5465cd-3472-4b4e-84a2-e1bc408cb634" />
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+ ▶️ Running Timer:-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/97dc9245-c0e2-4d86-9209-1623a77a21d2" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+▶️ Running Stop Timer:-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/222541ca-d0d0-4191-83e8-a0dd508a1353" />
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🔁 After Reset
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/327cdd65-e69c-47b3-b04c-491229ad59e3" />
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 📂 Folder Structure
+├── src/
+     ├── App.js
+     ├── XStopwatch.jsx
+     └── index.js
+
+
+
+     
+---
